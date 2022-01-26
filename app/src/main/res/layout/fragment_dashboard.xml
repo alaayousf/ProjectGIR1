@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/numperofVolting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="100"
+                android:textColor="#E91E63"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="229dp"
+                tools:layout_editor_absoluteY="3dp" />
+
+            <TextView
+                android:id="@+id/section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="#3F51B5"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="مجموع الاصوات"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                tools:layout_editor_absoluteX="139dp"
+                tools:layout_editor_absoluteY="39dp" />
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/numF"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="100"
+                    android:textColor="#E91E63"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="229dp"
+                    tools:layout_editor_absoluteY="3dp" />
+
+                <TextView
+                    android:id="@+id/tdisF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:background="#FFEB3B"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="عدد الاصوات لي قائمة فتح"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="39dp" />
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/numH"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="100"
+                    android:textColor="#E91E63"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="229dp"
+                    tools:layout_editor_absoluteY="3dp" />
+
+                <TextView
+                    android:id="@+id/tdisH"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:background="#4CAF50"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="عدد الاصوات لي قائمة حماس"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="39dp" />
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/numJ"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="100"
+                    android:textColor="#E91E63"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="229dp"
+                    tools:layout_editor_absoluteY="3dp" />
+
+                <TextView
+                    android:id="@+id/tdisj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="عدد الاصوات لي قائمة الجهاد"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="39dp" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

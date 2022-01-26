@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ProjectGIR1</string>
+    <string name="title_home">قوائم الترشح</string>
+    <string name="title_dashboard">الحملات الانتخابية</string>
+    <string name="title_notifications">الاحصائيات</string>
+</resources>

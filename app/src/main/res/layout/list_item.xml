@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#E4FCFF"
+    android:layout_margin="10dp"
+    android:elevation="20dp"
+    app:cardCornerRadius="16dp"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <ImageView
+        android:layout_gravity="right"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="14dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_palestine"/>
+
+    <TextView
+        android:id="@+id/list_titel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:paddingTop="14dp"
+        android:text="0.1  حركت التحرير الوطني \n الفلسطيني فتح"
+        android:paddingEnd="16dp"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="50dp"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:paddingRight="20dp"
+        android:text="هية القائمة الرسمية لي حركة فتح وتؤمن بي التسويه السلمية ببقضية الفلسطينية "/>
+
+
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ss"
+    tools:context=".SignupActivity">
+<androidx.constraintlayout.widget.ConstraintLayout
+android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personImage">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:elevation="8dp"
+            app:cardBackgroundColor="@color/yallow"
+            app:cardCornerRadius="20dp">
+
+
+            <LinearLayout
+                android:id="@+id/sacalin2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/personname"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="50dp"
+                    android:background="@drawable/backgrondtext"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="name"
+                    android:inputType="text" />
+
+
+                <EditText
+                    android:id="@+id/PersonEmaile"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="50dp"
+                    android:background="@drawable/backgrondtext"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="Enter Emalie"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/Personpassworde"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="50dp"
+                    android:background="@drawable/backgrondtext"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="Password"
+                    android:inputType="textPassword" />
+
+                <Button
+                    android:id="@+id/btn_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/bacgroronbtinprp"
+                    android:text="Sing up"
+                    android:textColor="#FFFF" />
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/personImage"
+        android:layout_width="132dp"
+        android:layout_height="132dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/cyircelpropopl"
+        android:clickable="false"
+        android:elevation="0dp"
+        android:padding="20sp"
+        android:src="@drawable/ic_baseline_person_add_alt_1_24"
+        android:text="login"
+        android:textColor="#FFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="5dp"
+            android:text="Dont Have an account? Click ?"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="633dp" />
+
+        <TextView
+
+            android:id="@+id/navetoLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="SIGNUP"
+            android:textAllCaps="true"
+            android:textColor="#FFF8BD"
+            android:textSize="17dp"
+            tools:layout_editor_absoluteX="221dp"
+            tools:layout_editor_absoluteY="627dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/testImage"
+        android:layout_width="102dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="155dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
